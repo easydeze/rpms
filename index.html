@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,30 +9,34 @@
     <title>Rice Pre-Medical Society</title>
 </head>
 <body>
-    <div class = "wrapper">
+    <div class = "wrapper" style = "background-image: url(images/floss\ 1.png);">
         <div class = "header">
-            <div class = "title">Rice Pre-Medical Society</div>
-            <ul>
-                <li><a href = "/">Home</a></li>
-                <li><a href = "pages/about.html">About Us</a></li>
-                <li><a href = "pages/news.html">News and Events</a></li>
-                <li><a href = "pages/programs.html">Programs</a></li>
-                <li><a href = "pages/resources.html">Resources</a></li>
+            <a href = "#"><img src = "images/rice.png" style = "height: 5rem; width: 7.5rem;"></a>
+            <ul class = "nav-menu">
+                <li class = "nav-item"><a href = "#" class = "nav-link"><button class = "button">Home</button></a></li>
+                <li class = "nav-item"><a href = "pages/about.html" class = "nav-link"><button class = "button">About Us</button></a></li>
+                <li class = "nav-item"><a href = "pages/news.html" class = "nav-link"><button class = "button">News & Events</button></a></li>
+                <li class = "nav-item"><a href = "pages/programs.html" class = "nav-link"><button class = "button">Programs</button></a></li>
+                <li class = "nav-item"><a href = "pages/resources.html" class = "nav-link"><button class = "button">Resources</button></a></li>
             </ul>
+            <div class = "hamburger">
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+                <span class = "bar"></span>
+            </div>
         </div>
         <div class = "main">
-            <div class = "slideshow"><img src = "images/rice.jpeg" style = "border-radius: 25px; height: 30rem; width: 40rem;"></div>
             <div class = "intro">
-                <h2>Welcome to RPMS.</h2>
-                The Rice Pre-Medical Society (RPMS) is an undergraduate student-based organization that aims to provide resources, advice, and opportunities to all Rice students interested in the health professions.
+                <h2 style = "font-weight: 1000;">Welcome to the Rice Pre-Medical Society!</h2>
+                <p class = "blurb">The Rice Pre-Medical Society (RPMS) is an undergraduate student-based organization that aims to provide resources, advice, and opportunities to all Rice students interested in the health professions.</p>
             </div>
             <div class = "next">
-                <h2>What's next.</h2>
-                Wednesday, November 17th, 2021 (6pm CST): RPMS Personal Statement Workshop
+                <h2>Upcoming events...</h2>
+                <p class = "blurb">Nothing planned yet, check back later!</p>
             </div>
-        </div>
-        <div class = "footer">© Rice Pre-Medical Society</div>
+            <div class = "slideshow"><img src = "images/doctors.svg" style = "border-radius: 25px; height: 25rem; max-width: 25rem;"></div>
     </div>
+    <div class = "footer">© Rice Pre-Medical Society 2022</div>
     <script src = "script.js"></script>
 </body>
 </html>
