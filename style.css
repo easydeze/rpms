@@ -8,6 +8,14 @@ html {
   background-size: cover;
 }
 
+.ricelogo {
+    transition: transform 0.2s;
+}
+
+.ricelogo:hover {
+    transform: scale(1.1); 
+}
+
 body {
     overflow: auto;
     height: 100%;
