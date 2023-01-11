@@ -1,11 +1,15 @@
 html {
     overflow: hidden;
     height: 100%;
+    width: 100%;
+    overflow-x: hidden; 
     background: url(../images/medusa.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
 }
 
 .ricelogo {
@@ -18,7 +22,10 @@ html {
 
 body {
     overflow: auto;
+    overflow-x: hidden; 
     height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -280,7 +287,6 @@ body {
 }
 
 .wrap {
-    overflow-y: scroll;
     margin-bottom: 8rem;
 }
 
@@ -363,6 +369,7 @@ body {
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 35px;
+    margin-bottom: 20vh;
 }
 
 .programs {
@@ -376,6 +383,7 @@ body {
     grid-auto-rows: 1fr;
     grid-template-columns: repeat(2,minmax(0,1fr));
     padding: 50px;
+    margin-bottom: 20vh;
 }
 
 @media(max-width: 1300px) {
