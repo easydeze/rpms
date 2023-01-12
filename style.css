@@ -1,16 +1,13 @@
 html {
     overflow: hidden;
     height: 100%;
-    width: 100%;
-    overflow-x: hidden; 
     background: url(../images/medusa.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 .ricelogo {
     transition: transform 0.2s;
@@ -22,10 +19,7 @@ html {
 
 body {
     overflow: auto;
-    overflow-x: hidden; 
     height: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 
 body {
@@ -77,6 +71,10 @@ body {
     transition: 0.7s ease;
 }
 
+.nav-item {
+    max-width: 150px;
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -92,7 +90,7 @@ body {
     background-color: black;
 }
 
-@media(max-width: 1050px) {
+@media(max-width: 1400px) {
     .picture {
         display: block;
         border-radius: 25px; 
@@ -411,4 +409,8 @@ body {
     height: 2px;
     margin: 5px auto;
     background-color: rgb(88, 88, 88);
+}
+
+.calendar {
+   padding: 3rem;
 }
