@@ -190,7 +190,7 @@ body {
     .nav-menu {
         position: fixed;
         left: -200%;
-        top: 150px;
+        top: 100px;
         gap: 0;
         width: 40%;
         flex-direction: column;
