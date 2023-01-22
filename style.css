@@ -271,7 +271,7 @@ body {
     align-items: center; 
     background-color: rgb(75, 99, 140);
     border-radius: 25px;
-    padding: 60px;
+    padding: 3rem;
     color: white;
     flex-wrap: wrap;
 }
@@ -283,7 +283,7 @@ body {
     align-items: center; 
     background-color: rgb(118, 145, 195);
     border-radius: 25px;
-    padding: 60px;
+    padding: 3rem;
     color: white;
     flex-wrap: wrap;
 }
